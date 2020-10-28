@@ -1,0 +1,252 @@
+@media(min-width:992px) and (max-width:1199px){
+    #about .video{
+        margin-top: 100px;
+    }
+    
+}
+@media(min-width:768px) and (max-width:991px){
+    header #navigation nav .navbar-brand{
+        padding: 4px 15px;
+        top: 0;
+    }
+    header #navigation nav .navbar-brand img{
+        width: 110px;
+    }
+/* header part ends */
+    .carousel-indicators{
+        bottom: 35px;
+    }
+    #banner .bnr_overlay{
+        padding-top: 145px;
+        padding-bottom: 80px;
+    }
+    #banner h3{
+        font-size: 18px;
+        color: #eda911;
+    }
+    #banner h1{
+        font-size: 40px;
+    }
+/* banner part ends */
+    #about,#classes{
+        padding: 50px 0;
+    }
+    #about .video{
+        margin-top: 30px;
+    }
+    #about .video img{
+        width: 100%;
+    }
+    #team-part{
+        padding: 50px 0 20px;
+    }
+    #team-part figure{
+        margin-top: 50px;
+    }
+    #testimonial .testimonial-bg{
+        margin-top: 30px;
+    }
+    
+    #membership h3 .overlay{
+        padding: 15px 0;
+    }
+    #membership h4{
+        font-size: 14px;
+    }
+    #membership h3{
+        font-size: 38px;
+    }
+    #membership ul li{
+        padding: 3px 0;
+    }
+    #membership .common-class{
+        margin-bottom: 30px;
+    }
+    #counter-part .counter_overlay h3{
+        font-size: 36px;
+    }
+/*
+    #counter-part .counter_overlay .counter-col ul li{
+        padding-left: 90px;
+    }
+*/
+    #counter-part .counter_overlay .counter-col ul li{
+        padding-left: 0;
+        width: 20%;
+        text-align: center;
+    }
+    #classes .nav-tabs .nav-item .nav-link{
+        line-height: 36px;
+    }
+    #classes .tab-content ul li{
+        width: 50%;
+    }
+    #classes .tab-content ul li.border-custom-right{
+        border-right: 2.5px solid #fff;
+    }
+    #classes .tab-content ul li.border-custom-left{
+        border-left: 2.5px solid #fff;
+    }
+    footer .md-gape{
+        margin-top: 50px;
+    }
+    #client .left_arrow{
+        left: -15px;
+    }
+    #client .right_arrow{
+        right: -15px;
+    }
+}
+
+@media(max-width:767px){
+    header #navigation{
+        background: rgba(53, 53, 53,1);
+        position: fixed;
+        top: 0;
+    }
+    header #navigation .navbar-nav .nav-item .nav-link{
+        text-align: center;
+        line-height: 44px;
+    }
+    header #navigation .navbar-nav .nav-item .nav-link.active{
+        background: none;
+        color: #e23e38;
+    }
+    header #navigation .navbar-nav .nav-item .nav-link:hover{
+        background: none;
+        color: #e23e38;
+    }
+    header #navigation .navbar-nav .nav-item .nav-link::after {
+        height: 0;
+    }
+    .navbar-nav{
+        border-top: 1px solid rgba(255, 255, 255,0.25);
+        padding-bottom: 30px;
+        padding-top: 20px;
+    }
+    .navbar-toggler{
+        padding: 0;
+        border: 0;
+        margin-right: 10px;
+    }
+    .navbar-light .navbar-toggler-icon{
+        background: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+    header #navigation nav .navbar-brand{
+        position: inherit;
+        top: 0;
+        left: 0;
+        padding: 5px 15px;
+        box-sizing: border-box;
+    }
+    header #navigation nav .navbar-brand{
+        width: 110px;
+    }
+}
+
+@media(min-width:576px) and (max-width:767px){
+    #banner .first_slide{
+        background: url(../images/banner-landscape.jpg) no-repeat center;
+    }
+    #banner .bnr_overlay{
+        padding-top: 130px;
+        padding-bottom: 75px;
+    }
+    #banner h3{
+        font-size: 18px;
+    }
+    #banner h1{
+        font-size: 40px;
+    }
+    .carousel-indicators{
+        bottom: 40px;
+    }
+    #about{
+        padding: 40px 0;
+    }
+    #about .video{
+        margin-top: 30px;
+    }
+    #membership h4{
+        margin-top: 30px;
+    }
+    #counter-part .counter_overlay .counter-col ul li{
+        padding-left: 0;
+        width: 20%;
+        text-align: center;
+    }
+    #counter-part .counter_overlay h3{
+        font-size: 30px;
+    }
+    #membership{
+        padding-bottom: 50px;
+    }
+    #classes .tab-content ul li{
+        width: 50%;
+    }
+    #classes .tab-content ul li.border-custom-right{
+        border: 2.5px solid #fff;
+    }
+    #classes .tab-content ul li.border-custom-left{
+        border: 2.5px solid #fff;
+    }
+    #client .right_arrow{
+        right: 0;
+        top: 30px;
+    }
+    #client .left_arrow{
+        left: 0;
+        top: 30px;
+    }
+    
+}
+
+@media(min-width:320px) and (max-width:575px){
+    #banner p{
+        display: none;
+    }
+    #banner .bnr_overlay{
+        padding-top: 140px;
+        padding-bottom: 70px;
+    }
+    #banner h1{
+        font-size: 38px;
+    }
+    #banner h3{
+        font-size: 16px;
+    }
+    #banner a{
+        font-size: 13px;
+        line-height: 30px;
+    }
+    #counter-part .counter_overlay .counter-col ul li{
+        width: 50%;
+        text-align: center;
+        padding-left: 0;
+        padding-top: 30px;
+    }
+    #counter-part .counter_overlay .counter-col ul li:last-child{
+        width: 100%;
+        padding-top: 40px;
+    }
+    #client .right_arrow{
+        right: 0;
+        top: 30px;
+    }
+    #client .left_arrow{
+        left: 0;
+        top: 30px;
+    }
+    #classes .nav-tabs .nav-item{
+        width: 33.33%;
+    }
+}
+
+
+
+
+
+
+
+
+
